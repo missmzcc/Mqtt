@@ -1,6 +1,8 @@
 # Mqtt
 mqtt在支付宝小程序ios出现乱码解决方法
 
+>* 主要是在使用ios中,mqtt中默认使用Base64了,因此需要使用
+   > base64.toByteArray(res.data.replace(/[\r\n]/g,""))
 
 >>```在文件使用方式```
 
