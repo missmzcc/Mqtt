@@ -5,6 +5,7 @@ mqtt在支付宝ios出现乱码
 ###使用方式
 
 ```
+import {connect} from './utils/mqtt.js' 
 mqttConnection() {
       //debugger
       console.log('创建连接')
@@ -69,5 +70,6 @@ mqttConnection() {
       mqttClient.end();
       mqttClient=null;
     }
- ``` },
+  },
+  ```
 
