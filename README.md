@@ -1,8 +1,8 @@
 # Mqtt
-mqtt在支付宝ios出现乱码
+mqtt在支付宝小程序ios出现乱码解决方法
 
 
->>```使用方式```
+>>```在文件使用方式```
 
 ```
 import {connect} from './utils/mqtt.js' 
