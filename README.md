@@ -5,11 +5,11 @@ mqtt在支付宝ios出现乱码
 ###使用方式
 
 >>` ` `
-mqttConnection() {
-      //debugger
-      console.log('创建连接')
-      const options = {
-        keepalive: 60,
+>>mqttConnection() {
+      >>//debugger
+      >>console.log('创建连接')
+      >>const options = {
+       >> keepalive: 60,
         clean: true, 
         connectTimeout: 10 * 1000,
         clientId:  my.getStorageSync({ key: 'mobile' }).data,
